@@ -1,43 +1,40 @@
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-Regular.woff2') format('woff2'),
-      url('./assets/fonts/Poppins-Regular.woff') format('woff');
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Poppins-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
-      url('./assets/fonts/Poppins-SemiBoldItalic.woff') format('woff');
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),
+    url("./assets/fonts/Poppins-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-Medium.woff2') format('woff2'),
-      url('./assets/fonts/Poppins-Medium.woff') format('woff');
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
-      url('./assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Poppins-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
-
-
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,26 +42,24 @@
   text-decoration: none;
 }
 
-html{
+html {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
-
-.container{
+.container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 50px;
 }
 
-
-#root{
+#root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-main{
+main {
   flex: 1;
 }
