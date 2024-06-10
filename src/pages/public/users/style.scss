@@ -1,0 +1,41 @@
+.clients{
+    padding-top: 2%;
+    &__row{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    &__pagination{
+        margin: 5% 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    &__prev, &__next{
+        cursor: pointer;
+        font-weight: 600;
+    }
+    &__page{
+        cursor: pointer;
+        background-color: #00202e;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__active-page{
+        background-color: #09b6fa;
+    }
+    &__disabled-page{
+        cursor: no-drop;
+    }
+}

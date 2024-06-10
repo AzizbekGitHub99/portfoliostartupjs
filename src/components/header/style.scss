@@ -1,0 +1,36 @@
+.header{
+    background-color: #00202e;
+    padding: 16px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    &__logo{
+        color: #fff;
+        font-style: italic;
+        font-size: 24px;
+    }
+    
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__btns{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__login-btn{
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 5px 18px;
+        border-radius: 4px;
+        transition: 0.3s;
+        
+        &:hover{
+            background-color: #fff;
+            color: #00202e;
+        }
+    }
+}

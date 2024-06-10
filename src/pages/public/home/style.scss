@@ -1,0 +1,45 @@
+.Typewriter{
+    font-size: 54px;
+    font-weight: 700;
+    color:#00202e;
+}
+
+.home{
+    padding-top: 60px;
+    background-color: #ffffea;
+    min-height: calc(100vh - 151px);
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    &__description{
+        text-align: center;
+        font-size: 18px;
+        line-height: 32px;
+        color: #003f5c;
+        max-width: 100%;
+        width: 800px;
+    }
+
+    &__login{
+        border: 1px solid transparent;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #00202e;
+        text-align: center;
+        transition: 0.5s;
+        max-width: 100%;
+        width: 200px;
+
+        &:hover{
+            color: #00202e;
+            background-color: #fff;
+            border: 1px solid #00202e;
+        }
+    }
+}

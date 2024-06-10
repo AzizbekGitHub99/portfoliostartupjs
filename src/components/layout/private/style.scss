@@ -1,0 +1,13 @@
+.demo-logo-vertical{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.ant-layout{
+    height: 100vh;
+    &-content{
+        min-height: 100vh;
+        overflow-y: scroll;
+    }
+}
